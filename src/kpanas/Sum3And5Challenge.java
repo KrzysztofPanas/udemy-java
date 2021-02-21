@@ -18,7 +18,7 @@ public class Sum3And5Challenge {
                 sumOfNumbers += i;
                 counter ++;
                 if (counter == 5){
-                System.out.println("sum of the numbers above is: " + sumOfNumbers);
+                    System.out.println("sum of the numbers above is: " + sumOfNumbers);
                     break;
                 }
             }
