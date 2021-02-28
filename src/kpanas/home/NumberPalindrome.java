@@ -49,9 +49,7 @@ public class NumberPalindrome {
             absoluteValueOfGivenNumber = absoluteValueOfGivenNumber / 10;
           }
         reversedNumber = reversedNumber /10;
-        if (reversedNumber == copyOfAbsoluteValueOfGivenNumber) {
-            return true;
-        } else return false;
+        return reversedNumber == copyOfAbsoluteValueOfGivenNumber;
 
     }
 }
