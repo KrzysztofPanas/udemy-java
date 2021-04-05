@@ -24,8 +24,8 @@ public class SharedDigit {
             int digitTwo = i / 10;
             int digitThree = j % 10;
             int digitFour = j / 10;
-            if (digitOne == digitThree || digitOne == digitFour || digitTwo == digitThree || digitTwo == digitFour) return true;
-            else return false;
+            boolean b = digitOne == digitThree || digitOne == digitFour || digitTwo == digitThree || digitTwo == digitFour;
+            return b;
 
 
         }
